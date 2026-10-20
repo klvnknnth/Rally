@@ -7,7 +7,7 @@
   ],
   "functions": {
     "api/**/*.js": {
-      "includeFiles": ["public/**", "handler.js", "og.js", "png.js"]
+      "includeFiles": "public/**"
     }
   }
 }
