@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/og/:blob", "destination": "/api/og/:blob" },
+    { "source": "/m/:blob", "destination": "/api/match/:blob" },
+    { "source": "/", "destination": "/api/home" }
+  ],
+  "functions": {
+    "api/**/*.js": {
+      "includeFiles": ["public/**", "handler.js", "og.js", "png.js"]
+    }
+  }
+}
