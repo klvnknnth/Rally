@@ -1,0 +1,12 @@
+{
+  "name": "Rally — chat games",
+  "short_name": "Rally",
+  "description": "Chess, draughts and word duels you play by passing a link around your chats.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b141a",
+  "theme_color": "#128C7E",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
